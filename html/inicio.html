@@ -5,75 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../img/icons8-logo.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/7c2d1a3e12.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <!--logo-->
-        <div class="log">
-            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" width="32px" height="32px">
-                <path d="M 12 4 C 9.8026661 4 8 5.8026661 8 8 C 5.8026661 8 4 9.8026661 4 12 L 4 24 C 4 26.197334 5.8026661 28 8 28 L 20 28 C 22.197334 28 24 26.197334 24 24 C 26.197334 24 28 22.197334 28 20 L 28 8 C 28 5.8026661 26.197334 4 24 4 L 12 4 z M 12 6 L 24 6 C 25.116666 6 26 6.8833339 26 8 L 26 20 C 26 21.116666 25.116666 22 24 22 L 11 22 C 10.43497 22 10 21.56503 10 21 L 10 14 L 12 14 L 12 18 C 12 19.093063 12.906937 20 14 20 L 18 20 L 20 20 L 22 20 C 23.093063 20 24 19.093063 24 18 L 24 11 C 24 9.3550302 22.64497 8 21 8 L 10 8 C 10 6.8833339 10.883334 6 12 6 z M 8 10 L 21 10 C 21.56503 10 22 10.43497 22 11 L 22 18 L 20 18 L 20 14 C 20 12.906937 19.093063 12 18 12 L 14 12 L 12 12 L 10 12 C 8.9069372 12 8 12.906937 8 14 L 8 21 C 8 22.64497 9.3550302 24 11 24 L 22 24 C 22 25.116666 21.116666 26 20 26 L 8 26 C 6.8833339 26 6 25.116666 6 24 L 6 12 C 6 10.883334 6.8833339 10 8 10 z M 14 14 L 18 14 L 18 18 L 14 18 L 14 14 z"/>
-            </svg>
-        </div>
-        <!---->
-        <!--menu-->
-        <div class="menu ">
-            <ul class="nav justify-content-end">
-                <li class="col"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></li>
-                <li class="col"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M312 24V34.5c6.4 1.2 12.6 2.7 18.2 4.2c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17c-10.9-2.9-21.1-4.9-30.2-5c-7.3-.1-14.7 1.7-19.4 4.4c-2.1 1.3-3.1 2.4-3.5 3c-.3 .5-.7 1.2-.7 2.8c0 .3 0 .5 0 .6c.2 .2 .9 1.2 3.3 2.6c5.8 3.5 14.4 6.2 27.4 10.1l.9 .3c11.1 3.3 25.9 7.8 37.9 15.3c13.7 8.6 26.1 22.9 26.4 44.9c.3 22.5-11.4 38.9-26.7 48.5c-6.7 4.1-13.9 7-21.3 8.8V232c0 13.3-10.7 24-24 24s-24-10.7-24-24V220.6c-9.5-2.3-18.2-5.3-25.6-7.8c-2.1-.7-4.1-1.4-6-2c-12.6-4.2-19.4-17.8-15.2-30.4s17.8-19.4 30.4-15.2c2.6 .9 5 1.7 7.3 2.5c13.6 4.6 23.4 7.9 33.9 8.3c8 .3 15.1-1.6 19.2-4.1c1.9-1.2 2.8-2.2 3.2-2.9c.4-.6 .9-1.8 .8-4.1l0-.2c0-1 0-2.1-4-4.6c-5.7-3.6-14.3-6.4-27.1-10.3l-1.9-.6c-10.8-3.2-25-7.5-36.4-14.4c-13.5-8.1-26.5-22-26.6-44.1c-.1-22.9 12.9-38.6 27.7-47.4c6.4-3.8 13.3-6.4 20.2-8.2V24c0-13.3 10.7-24 24-24s24 10.7 24 24zM568.2 336.3c13.1 17.8 9.3 42.8-8.5 55.9L433.1 485.5c-23.4 17.2-51.6 26.5-80.7 26.5H192 32c-17.7 0-32-14.3-32-32V416c0-17.7 14.3-32 32-32H68.8l44.9-36c22.7-18.2 50.9-28 80-28H272h16 64c17.7 0 32 14.3 32 32s-14.3 32-32 32H288 272c-8.8 0-16 7.2-16 16s7.2 16 16 16H392.6l119.7-88.2c17.8-13.1 42.8-9.3 55.9 8.5zM193.6 384l0 0-.9 0c.3 0 .6 0 .9 0z"/></svg></li>
-                <li class="col"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM228 104c0-11-9-20-20-20s-20 9-20 20v14c-7.6 1.7-15.2 4.4-22.2 8.5c-13.9 8.3-25.9 22.8-25.8 43.9c.1 20.3 12 33.1 24.7 40.7c11 6.6 24.7 10.8 35.6 14l1.7 .5c12.6 3.8 21.8 6.8 28 10.7c5.1 3.2 5.8 5.4 5.9 8.2c.1 5-1.8 8-5.9 10.5c-5 3.1-12.9 5-21.4 4.7c-11.1-.4-21.5-3.9-35.1-8.5c-2.3-.8-4.7-1.6-7.2-2.4c-10.5-3.5-21.8 2.2-25.3 12.6s2.2 21.8 12.6 25.3c1.9 .6 4 1.3 6.1 2.1l0 0 0 0c8.3 2.9 17.9 6.2 28.2 8.4V312c0 11 9 20 20 20s20-9 20-20V298.2c8-1.7 16-4.5 23.2-9c14.3-8.9 25.1-24.1 24.8-45c-.3-20.3-11.7-33.4-24.6-41.6c-11.5-7.2-25.9-11.6-37.1-15l-.7-.2c-12.8-3.9-21.9-6.7-28.3-10.5c-5.2-3.1-5.3-4.9-5.3-6.7c0-3.7 1.4-6.5 6.2-9.3c5.4-3.2 13.6-5.1 21.5-5c9.6 .1 20.2 2.2 31.2 5.2c10.7 2.8 21.6-3.5 24.5-14.2s-3.5-21.6-14.2-24.5c-6.5-1.7-13.7-3.4-21.1-4.7V104z"/></svg></li>
-            </ul>
-        </div>
-        <!---->
-    </nav>
-    <!--contenido-->
+    <header>
+        <nav class="navbar">
+            
+            <div class="container">
+                <a href="#register"><img src="../img/icons8-logo.svg" alt="" ></a>
+                <button class="menu__icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+                <div class="despliegue collapse navbar-collapse  " id="navbarTogglerDemo01">
+                  <a class="navbar-brand" href="#">Hidden brand</a>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 desple">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#features">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  
+                </div>
 
-    <!--previa vista-->
-    <div class="vist">
-        <img src="../img/pexels-pixabay-164527.jpg" alt="">
-    </div>
-    <!---->
-    <!-- contenido de finase-->
-    <div>
-        
-    </div>
-    <!---->
+                
+            </div>
+        </nav>
+        <!--<ul class="menu-horizontal">
+                    <li><a href="#home"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li><a href="#features"><i class="fa-solid fa-hand-holding-dollar"></i>Características</a></li>
+                    <li><a href="#register"><i class="fa-solid fa-magnifying-glass-dollar"></i>Regístrate</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>-->
+        <div class="header-content container" id="home">
+            <h2>Bienvenidos a Nuestro Curso de Finanzas</h2>
+            <p>Aprende a manejar tus finanzas personales y empresariales con nosotros.</p>
+            <a href="#register" class="btn">Regístrate Ahora</a>
+        </div>
+    </header>
 
-    <!--Formulario -->
-    <div>
-        <form action="" class="">
-            <div class="">
-                <label for="">nombre</label>
-                <input type="text">
+    <section id="features" class="container">
+        <h2>Características del Curso</h2>
+        <div class="feature">
+            <h3>Contenido de Alta Calidad</h3>
+            <p>Obtén acceso a materiales de estudio detallados y actualizados.</p>
+        </div>
+        <div class="feature">
+            <h3>Instructores Expertos</h3>
+            <p>Aprende de profesionales con años de experiencia en finanzas.</p>
+        </div>
+        <div class="feature">
+            <h3>Acceso de por Vida</h3>
+            <p>Disfruta de acceso ilimitado al contenido del curso.</p>
+        </div>
+    </section>
+
+    <section id="register" class="container">
+        <h2>Regístrate para Más Información</h2>
+        <form action="submit_form.php" method="post" class="register-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
             </div>
-            <div class="">
-                <label for="">nombre</label>
-                <input type="text">
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
             </div>
-            <div class="">
-                <label for="">nombre</label>
-                <input type="text">
-            </div>
-            <div class="">
-                <label for="">nombre</label>
-                <input type="text">
-            </div>
-            <div class="">
-                <label for="">nombre</label>
-                <input type="text">
-            </div>
+            <button type="submit" class="btn">Enviar</button>
         </form>
-    </div>
-    <!---->
+    </section>
 
-   
-   
-    <!--footer-->
-    <footer>
-        © website 2024
+    <footer id="contact" class="container">
+        <p>&copy; 2024 Nuestro Curso de Finanzas. Todos los derechos reservados.</p>
     </footer>
-    <!---->
 </body>
 </html>
