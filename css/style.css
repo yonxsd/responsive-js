@@ -17,17 +17,28 @@ header {
 
 .navbar {
     background-color: #000000;
+    height: 85px;
+}
+
+
+.navbar-nav{
+    margin-top: -4rem;
+    margin-left: 63rem;
+}
+
+
+.log{
+    display: block;
+    margin-top: 1rem;
+}
+
+.header-content{
+    background-color: #4CAF50;
+    width: 100%;
+    color: white;
+    text-align: center;
     
 }
-
-.navbar .container {
-   
-}
-
-.navbar .container > img {
-    cursor: pointer;
-}
-
 
 .header-content .btn {
     background-color: #FF9800;
@@ -44,7 +55,7 @@ header {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     
 }
@@ -215,12 +226,12 @@ button {
         display: block;
         width: 25px;
         height: 3px;
-        margin: 5px auto;
+        margin: 4px auto;
         background-color: #333;
         transition: all 0.3s;
     }  
     .despliegue{
-        
+      display: block;  
       
     }
     .navbar-toggler {
@@ -233,6 +244,7 @@ button {
     .navbar-nav {
         flex-direction: row;
         gap: 15px;
+        z-index: 0;
     }
     .navbar-nav .nav-item {
         margin: 0 10px;
